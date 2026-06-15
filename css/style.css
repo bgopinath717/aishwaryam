@@ -2572,3 +2572,29 @@ footer {
   }
 }
 
+/* Responsive Grid Utilities for Donation Page */
+.responsive-two-col-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.responsive-four-card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .responsive-two-col-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 3.5rem;
+  }
+  
+  .responsive-four-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+

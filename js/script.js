@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }, {
     root: null,
     rootMargin: "-60px",
-    threshold: 0.1
+    threshold: 0.01
   });
 
   revealElements.forEach(el => {
