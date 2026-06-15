@@ -2112,14 +2112,47 @@ footer {
 }
 
 .social-link:hover {
-  background-color: var(--gold);
-  color: var(--gold-foreground);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(108, 196, 12, 0.3);
 }
 
 .social-link:hover svg {
   transform: scale(1.08);
+}
+
+/* YouTube Brand Colors */
+.social-link[aria-label="YouTube"] {
+  background-color: rgba(255, 0, 0, 0.08);
+  color: #FF0000;
+}
+
+.social-link[aria-label="YouTube"]:hover {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
+}
+
+/* Instagram Brand Colors */
+.social-link[aria-label="Instagram"] {
+  background-color: rgba(225, 48, 108, 0.08);
+  color: #E1306C;
+}
+
+.social-link[aria-label="Instagram"]:hover {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(225, 48, 108, 0.3);
+}
+
+/* WhatsApp Brand Colors */
+.social-link[aria-label="WhatsApp"] {
+  background-color: rgba(37, 211, 102, 0.08);
+  color: #25D366;
+}
+
+.social-link[aria-label="WhatsApp"]:hover {
+  background-color: #25D366;
+  color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
 }
 
 .footer-col h3 {
